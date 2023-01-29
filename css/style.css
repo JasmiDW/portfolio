@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url(../font/Ubuntu-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url(../font/Ubuntu-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Light';
+    src: url(../font/Ubuntu-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src: url(../font/Ubuntu-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+header{
+    height: 400px;
+}
+
+body{
+    font-family: 'Ubuntu-Regular';
+}
+
+a{
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+h1{
+    text-transform: capitalize;
+    font-size:60px;
+}
+
+h2{
+    font-family: 'Ubuntu-Medium';
+    font-size:30px;
+}
+
+p{
+    font-size:16px;
+}
+
+
+.navbar{
+    width: 100%;
+    background-color:white;
+    box-shadow: 0 7px 7px -5px rgba(0,0,0,.1);
+    height: 100px;
+}
+
+.btn{
+    background-color: #c3bcde;
+    color:white;
+    box-shadow: 0 7px 7px -5px #c3bcde(0,0,0,.9);
+}
+
+.btn:hover{
+    color:black;
+    border-color: #c3bcde;
+    box-shadow: 0 7px 7px -5px #c3bcde(0,0,0,.9);
+}
+
+li {
+    text-decoration: none;
+    position: relative;
+}
+  
+li::before {
+    content: "";
+    background-color: black;
+    transition: 0.4s ease-out;
+    width: 0%;
+    height: 1px;
+  
+    position: absolute;
+    left: 0;
+    bottom: -0px;
+}
+  
+li:hover::before {
+    width: 100%;
+}
+
+#intro{
+    height: 550px;
+}
+.fa-brands{
+    margin-top: 20px;
+    color: black;
+}
+
+.fa-brands:hover{
+    margin-top: 20px;
+    color: #c3bcde;
+}
+
+#about img{
+    border-radius: 30px;
+    height: auto;
+    width: auto;
+}
+
+#project h3{
+    font-family: 'Ubuntu-Bold';
+    font-size: 35px;
+    text-transform: uppercase;
+}
+#project img{
+    border-radius: 30px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+
+#project .col-md-2 p {
+    border-radius: 5px;;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    margin: 0;
+}
+
+#project .col-md-3 p {
+    border-radius: 5px;;
+    height: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+.html-button{
+    background-color:coral;
+}
+
+.css-button{
+    background-color:cornflowerblue;
+}
+
+.js-button{
+    background-color:gold;
+} 
+
+.php-button{
+    background-color:slateblue;
+} 
+
+.MySQL-button{
+    background-color:orangered;
+}
+
+.bootstrap-button{
+    background-color:blueviolet;
+}
+
+#project .col-md-3 a{
+    font-family: 'Ubuntu-Medium';
+    font-size: 15px;
+    border: 8px solid #c3bcde;
+    background-color: none;
+}
