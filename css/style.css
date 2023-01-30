@@ -49,9 +49,21 @@ h2{
     font-size:30px;
 }
 
+
+
 p{
     font-size:16px;
 }
+
+footer{
+    height: 200px;
+    background-color: #c3bcde;
+}
+
+footer .fa-brands:hover{
+    color: white;
+}
+
 
 
 .navbar{
@@ -115,7 +127,7 @@ li:hover::before {
 
 #project h3{
     font-family: 'Ubuntu-Bold';
-    font-size: 35px;
+    font-size: 24px;
     text-transform: uppercase;
 }
 #project img{
@@ -169,4 +181,31 @@ li:hover::before {
     font-size: 15px;
     border: 8px solid #c3bcde;
     background-color: none;
+}
+
+#ecopratique #contact h6{
+    font-family: 'Ubuntu-Medium';
+}
+
+h2{
+    font-family: 'Ubuntu-Medium';
+    text-transform:uppercase;
+}
+
+#contact a{
+    color: #c3bcde;
+    font-family: 'Ubuntu-Light';
+    font-size: 20px;
+}
+
+#contact p{
+    color: #c3bcde;
+    font-family: 'Ubuntu-Light';
+    font-size: 20px;
+}
+
+#contact h3{
+    font-family: 'Ubuntu-Bold';
+    font-size: 20px;
+    text-transform: uppercase;
 }
